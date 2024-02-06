@@ -12,9 +12,9 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -27,4 +27,114 @@ body {
     background-color: #2A2C2E;
     padding: 0px 20px;
     border-radius: 20px;
+}
+
+.content {
+    width: 1200px;
+    background-color: #2A2C2E;
+    border-radius: 20px;
+    padding: 25px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+form {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-entry {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-entry > input {
+    border: none;
+    background-color: white;
+    width: 500px;
+    height: 60px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.submit-button {
+    all: unset;
+    cursor: pointer;
+    background-color: #F4CE47;
+    text-align: center;
+    color: #2A2C2E;
+    height: 56px;
+    border-radius: 16px;
+    font-weight: bold;
+    width: 700px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.form-radio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    color: aliceblue;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    background-color: #2A2C2E;
+    padding: 0px 24px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+    padding: 12px 24px;
+}
+
+.footer-tnc, .footer-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
 }
